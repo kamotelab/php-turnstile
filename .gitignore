@@ -1,4 +1,7 @@
-/vendor
+.php-cs-fixer.cache
 /.fleet
 /.idea
 /.vscode
+.phpunit.cache
+/report
+/vendor
