@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/kamotelab/php-turnstile/compare/v1.0.1...v1.1.0) (2025-03-10)
+
+
+### Features
+
+* rename repo ([#10](https://github.com/kamotelab/php-turnstile/issues/10)) ([4d46af9](https://github.com/kamotelab/php-turnstile/commit/4d46af9a6284b2d7e0b3063cf2a769f24bddd2a1))
+
 ## [1.0.1](https://github.com/kamotelab/turnstile/compare/v1.0.0...v1.0.1) (2025-03-08)
 
 
