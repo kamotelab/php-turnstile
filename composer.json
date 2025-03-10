@@ -1,5 +1,5 @@
 {
-  "name": "kamotelab/turnstile",
+  "name": "kamotelab/php-turnstile",
   "type": "library",
   "description": "PHP implementation of cloudflare's turnstile",
   "keywords": [
@@ -7,7 +7,7 @@
     "php",
     "turnstile"
   ],
-  "homepage": "https://github.com/kamotelab/turnstile",
+  "homepage": "https://github.com/kamotelab/php-turnstile",
   "license": "MIT",
   "authors": [
     {
