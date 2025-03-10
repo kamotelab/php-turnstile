@@ -1,6 +1,6 @@
 # PHP Turnstile Library
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/kamotelab/turnstile/test.yml?logo=github&)
-![GitHub Release](https://img.shields.io/github/v/release/kamotelab/turnstile?logo=packagist)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/kamotelab/php-turnstile/test.yml?logo=github&)
+![GitHub Release](https://img.shields.io/github/v/release/kamotelab/php-turnstile?logo=packagist)
 
 A lightweight PHP implementation of Cloudflare's Turnstile
 
@@ -10,7 +10,7 @@ A lightweight PHP implementation of Cloudflare's Turnstile
 
 ## Installation
 ```
- composer require kamotelab/turnstile
+ composer require kamotelab/php-turnstile
 ```
 
 ## Example Usage
