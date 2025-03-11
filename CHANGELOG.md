@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/kamotelab/php-turnstile/compare/v1.1.0...v1.2.0) (2025-03-11)
+
+
+### Features
+
+* refactor 03-11-25 ([560fb51](https://github.com/kamotelab/php-turnstile/commit/560fb5105938a726110435f8b72b1a52229bddba))
+* refactor 03-11-25 ([22fa200](https://github.com/kamotelab/php-turnstile/commit/22fa200bea415faf8e15952a02ed57c122690e03))
+
 ## [1.1.0](https://github.com/kamotelab/php-turnstile/compare/v1.0.1...v1.1.0) (2025-03-10)
 
 
