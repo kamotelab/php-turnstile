@@ -13,27 +13,30 @@ declare(strict_types=1);
 
 namespace KamoteLab\Http;
 
+use JsonException;
 use Psr\Http\Client\ClientExceptionInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 
 interface ClientInterface
 {
-    public const string TURNSTILE_VERIFY_URL = 'https://challenges.cloudflare.com/turnstile/v0/siteverify';
-
-    /**
-     * @param array $data
-     *
-     * @return RequestInterface
-     */
-    public function createRequest(array $data): RequestInterface;
-
-    /**
-     * @param RequestInterface $request
-     *
-     * @return ResponseInterface
-     *
-     * @throws ClientExceptionInterface
-     */
-    public function sendRequest(RequestInterface $request): ResponseInterface;
+	public const string TURNSTILE_VERIFY_URL = 'https://challenges.cloudflare.com/turnstile/v0/siteverify';
+	
+	/**
+	 * @param array $data
+	 *
+	 * @return RequestInterface
+	 *
+	 * @throws JsonException
+	 */
+	public function createRequest(array $data): RequestInterface;
+	
+	/**
+	 * @param RequestInterface $request
+	 *
+	 * @return ResponseInterface
+	 *
+	 * @throws ClientExceptionInterface
+	 */
+	public function sendRequest(RequestInterface $request): ResponseInterface;
 }

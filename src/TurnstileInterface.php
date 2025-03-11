@@ -18,20 +18,20 @@ use Psr\Http\Client\ClientExceptionInterface;
 
 interface TurnstileInterface
 {
-    /**
-     * @param string $secretKey
-     */
-    public function __construct(string $secretKey);
-
-    /**
-     * @param string $response
-     * @param string|null $idempotencyKey
-     * @param string|null $remoteIp
-     *
-     * @return array
-     *
-     * @throws JsonException
-     * @throws ClientExceptionInterface
-     */
-    public function verify(string $response, ?string $idempotencyKey = null, ?string $remoteIp = null): array;
+	/**
+	 * @param string $secretKey
+	 */
+	public function __construct(string $secretKey);
+	
+	/**
+	 * @param string $response
+	 * @param string|null $idempotencyKey
+	 * @param string|null $remoteIp
+	 *
+	 * @return array
+	 *
+	 * @throws JsonException
+	 * @throws ClientExceptionInterface
+	 */
+	public function verify(string $response, ?string $idempotencyKey = null, ?string $remoteIp = null): array;
 }
