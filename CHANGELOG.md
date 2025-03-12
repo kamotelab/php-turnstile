@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/kamotelab/php-turnstile/compare/v1.2.0...v1.2.1) (2025-03-12)
+
+
+### Miscellaneous Chores
+
+* create SECURITY.md ([#15](https://github.com/kamotelab/php-turnstile/issues/15)) ([339026c](https://github.com/kamotelab/php-turnstile/commit/339026c142879685900708a809f59864618033a8))
+
 ## [1.2.0](https://github.com/kamotelab/php-turnstile/compare/v1.1.0...v1.2.0) (2025-03-11)
 
 
