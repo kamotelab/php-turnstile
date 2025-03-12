@@ -2,6 +2,15 @@
 
 declare(strict_types=1);
 
+/**
+ *
+ * @category Library
+ * @package  PHP Turnstile
+ * @author   Yan Santos
+ * @license  https://opensource.org/license/mit
+ * @link     https://github.com/kamotelab/php-turnstile
+ */
+
 namespace KamoteLab\Http;
 
 use JsonException;
